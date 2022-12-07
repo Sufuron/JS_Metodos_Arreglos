@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico:600");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Pacifico", cursive;
+}
+
+body {
+  background-color: antiquewhite;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+nav {
+  padding: 30px;
+  display: flex;
+  background-color: rgba(27, 27, 26, 0.863);
+  box-shadow: 0 12px 8px 0 rgba(65, 60, 60, 0.267);
+  border-bottom-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+  margin-bottom: auto;
+
+  & h1 {
+    font-weight: bolder;
+    color: beige;
+    font-size: 55px;
+  }
+
+  & .flex-a {
+    align-items: flex-end;
+    display: flex;
+    margin-left: 35%;
+    margin-bottom: 7px;
+    font-size: 30px;
+    font-weight: 500;
+    color: beige;
+    text-decoration: none;
+  }
+
+  & .flex-a:hover {
+    color: rgba(214, 252, 1, 0.808);
+  }
+}
+
+main {
+  margin: 100px;
+  background-color: antiquewhite;
+
+  & section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    place-items: center;
+    margin: 10px;
+    background-color: rgba(27, 27, 26, 0.863);
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+
+    color: white;
+    min-width: 500px;
+    text-align: center;
+
+    & input {
+      margin: 20px;
+      border-radius: 40px;
+      padding: 10px;
+    }
+
+    & button {
+      border-radius: 40px;
+      padding: 10px;
+      margin-right: 2px;
+    }
+
+    & button:hover {
+      background-color: black;
+      color: beige;
+      margin-left: 2px;
+    }
+  }
+
+  & article {
+    display: flex;
+    justify-content: space-evenly;
+    place-items: center;
+    padding: 50px;
+    margin: 10px;
+    background-color: rgba(27, 27, 26, 0.863);
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    color: white;
+    min-width: 500px;
+    text-align: center;
+
+    & .bought-products {
+      color: rgb(15, 238, 15);
+    }
+  }
+}
+
+.product-id {
+  padding: 10px;
+  border-right: 2px solid rgb(255, 255, 255);
+}
+
+.product {
+  align-items: flex-start;
+  display: flex;
+}
+
+.checkbox-input {
+  margin-left: 5px;
+  padding: 5px;
+}
+
+.btn-delete {
+  padding: 10px;
+  margin-left: 5px;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+}
+
+.btn-delete:hover {
+  background-color: black;
+  color: white;
+}
+
+footer {
+  padding: 0.7em 0;
+  color: beige;
+  background-color: rgba(27, 27, 26, 0.863);
+  box-shadow: 12px 0 18px 10px rgba(65, 60, 60, 0.63);
+  border-top-right-radius: 1em;
+  border-top-left-radius: 1em;
+  text-align: center;
+  height: 7vh;
+}
